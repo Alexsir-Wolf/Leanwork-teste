@@ -1,0 +1,15 @@
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\bin\Debug\net8.0\ApiRH.Dominio.Core.deps.json
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\bin\Debug\net8.0\ApiRH.Dominio.Core.runtimeconfig.json
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\bin\Debug\net8.0\ApiRH.Dominio.Core.dll
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\bin\Debug\net8.0\ApiRH.Dominio.Core.pdb
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.csproj.AssemblyReference.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.AssemblyInfoInputs.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.AssemblyInfo.cs
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.csproj.CoreCompileInputs.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.sourcelink.json
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.dll
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\refint\ApiRH.Dominio.Core.dll
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.pdb
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ApiRH.Dominio.Core.genruntimeconfig.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH.Dominio.Core\obj\Debug\net8.0\ref\ApiRH.Dominio.Core.dll

@@ -1,0 +1,14 @@
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\bin\Debug\net7.0\Atividade.exe
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\bin\Debug\net7.0\Atividade.deps.json
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\bin\Debug\net7.0\Atividade.runtimeconfig.json
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\bin\Debug\net7.0\Atividade.dll
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\bin\Debug\net7.0\Atividade.pdb
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.GeneratedMSBuildEditorConfig.editorconfig
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.AssemblyInfoInputs.cache
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.AssemblyInfo.cs
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.csproj.CoreCompileInputs.cache
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.dll
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\refint\Atividade.dll
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.pdb
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\Atividade.genruntimeconfig.cache
+D:\Leanwork\Atividade.1\Atividade.1\Atividade.1\obj\Debug\net7.0\ref\Atividade.dll

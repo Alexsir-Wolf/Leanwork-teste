@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiRH.API</name>
+    </assembly>
+    <members>
+        <member name="T:ApiRH.API.Controllers.Base.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.Registrar(ApiRH.Dominio.Commands.Input.Candidatos.CandidatoCommand)">
+             <summary>
+             Cria um novo candidato.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "Candidato",
+                    "funcao": "Candidato",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1
+                         },        
+                         {
+                             "TecnologiaId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Um novo candidato foi criado.</returns>
+             <response code="201">Retorna novo candidato criado.</response>
+             <response code="400">Se novo candidato não for criado.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.Editar(System.Int32,ApiRH.Dominio.Commands.Input.Candidatos.CandidatoCommand)">
+             <summary>
+             Altera um candidato.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "Candidato",
+                    "funcao": "Candidato",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1
+                         },        
+                         {
+                             "TecnologiaId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Candidato alterado.</returns>
+             <response code="200">Retorna candidato alterado.</response>
+             <response code="400">Se candidato não for alterado.</response>    
+             <param name="id">Id do candidato a ser alterado.</param>
+             <param name="model"></param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.Listar">
+            <summary>
+            Lista todos os candidatos.
+            </summary>
+            <remarks />
+            <returns>Lista todos os candidatos cadastrados e ativos.</returns>
+            <response code="200">Retorna lista de candidatos.</response>
+            <response code="400">Se ocorrer algum erro ao listar os candidatos.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.ListarPorVaga(System.Int32)">
+            <summary>
+            Lista todos os candidatos por vaga.
+            </summary>
+            <remarks />
+            <returns>Lista todos os candidatos por vaga cadastrados e ativos.</returns>
+            <response code="200">Retorna lista de candidatos por vaga.</response>
+            <response code="400">Se ocorrer algum erro ao listar os candidatos.</response>    
+            <param name="id">Id da vaga a ser consultada.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.ObtemPorId(System.Int32)">
+            <summary>
+            Obtem um candidato por id.
+            </summary>
+            <returns></returns>
+            <response code="200">Retorna o candidato consultado.</response>
+            <response code="400">Se candidato não for consultado.</response>
+            <param name="id">Id do candidato a ser consultado.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.CandidatosController.Excluir(System.Int32)">
+            <summary>
+            Exclui um candidato.
+            </summary>
+            <returns>Candidato excluído.</returns>
+            <response code="200">Candidato excluído.</response>
+            <response code="400">Se candidato não for excluído.</response>
+            <param name="id">Id do candidato a ser excluído.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.EmpresasController.Registrar(ApiRH.Dominio.Commands.Input.Empresas.EmpresaCommand)">
+             <summary>
+             Cria uma nova empresa.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "Empresa",
+                    "CNPJ": "CNPJ",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1
+                         },        
+                         {
+                             "TecnologiaId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Uma nova empresa foi criada.</returns>
+             <response code="201">Retorna a nova empresa criada.</response>
+             <response code="400">Se a nova empresa não for criada.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.EmpresasController.Editar(System.Int32,ApiRH.Dominio.Commands.Input.Empresas.EmpresaCommand)">
+             <summary>
+             Altera uma empresa.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "Empresa",
+                    "CNPJ": "CNPJ",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1
+                         },        
+                         {
+                             "TecnologiaId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Empresa alterada.</returns>
+             <response code="200">Retorna a empresa alterada.</response>
+             <response code="400">Se a empresa não for alterada.</response>    
+             <param name="id">Id da empresa a ser alterada.</param>
+             <param name="model"></param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.EmpresasController.Listar">
+            <summary>
+            Lista todas as empresas.
+            </summary>
+            <remarks />
+            <returns>Lista todas as empresas cadastradas e ativas.</returns>
+            <response code="200">Retorna lista de empresas.</response>
+            <response code="400">Se ocorrer algum erro ao listar as empresas.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.EmpresasController.ObtemPorId(System.Int32)">
+            <summary>
+            Obtem uma empresa por id.
+            </summary>
+            <returns></returns>
+            <response code="200">Retorna a empresa consultada.</response>
+            <response code="400">Se a empresa não for consultada.</response>
+            <param name="id">Id da empresa a ser consultada.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.EmpresasController.Excluir(System.Int32)">
+            <summary>
+            Exclui uma empresa.
+            </summary>
+            <returns>Empresa excluída.</returns>
+            <response code="200">empresa excluída.</response>
+            <response code="400">Se a empresa não for excluída.</response>
+            <param name="id">Id da empresa a ser excluída.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.TecnologiasController.Registrar(ApiRH.Dominio.Commands.Input.Tecnologias.TecnologiaCommand)">
+             <summary>
+             Cria uma nova tecnologia.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "RH"
+                 }
+            
+             </remarks>
+             <returns>Uma nova tecnologia foi criada.</returns>
+             <response code="201">Retorna a nova tecnologia criada.</response>
+             <response code="400">Se a nova tecnologia não for criada.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.TecnologiasController.Editar(System.Int32,ApiRH.Dominio.Commands.Input.Tecnologias.TecnologiaCommand)">
+             <summary>
+             Altera uma tecnologia.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "Nome": "RH"
+                 }
+            
+             </remarks>
+             <returns>Tecnologia alterada.</returns>
+             <response code="200">Retorna a tecnologia alterada.</response>
+             <response code="400">Se a tecnologia não for alterada.</response>    
+             <param name="id">Id da tecnologia a ser alterada.</param>
+             <param name="model"></param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.TecnologiasController.Listar">
+            <summary>
+            Lista todas as tecnologias.
+            </summary>
+            <remarks />
+            <returns>Lista todas as tecnologias cadastradas e ativas.</returns>
+            <response code="200">Retorna lista de tecnologias.</response>
+            <response code="400">Se ocorrer algum erro ao listar as tecnologias.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.TecnologiasController.ObtemPorId(System.Int32)">
+            <summary>
+            Obtem uma tecnologia por id.
+            </summary>
+            <returns></returns>
+            <response code="200">Retorna a tecnologia consultada.</response>
+            <response code="400">Se a tecnologia não for consultada.</response>
+            <param name="id">Id da tecnologia a ser consultada.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.TecnologiasController.Excluir(System.Int32)">
+            <summary>
+            Exclui uma tecnologia.
+            </summary>
+            <returns>Tecnologia excluída.</returns>
+            <response code="200">tecnologia excluída.</response>
+            <response code="400">Se a tecnologia não for excluída.</response>
+            <param name="id">Id da tecnologia a ser excluída.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.VagasController.Registrar(ApiRH.Dominio.Commands.Input.Vagas.VagaCommand)">
+             <summary>
+             Cria uma nova vaga.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "descricao": "Vaga",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1,
+                             "Peso":10
+                         },        
+                         {
+                             "TecnologiaId": 2,
+                             "Peso":10
+                         }
+                     ],
+                     "Candidatos":[
+                         {
+                             "CandidatoId": 1
+                         },        
+                         {
+                             "CandidatoId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Uma nova vaga foi criada.</returns>
+             <response code="201">Retorna a nova vaga criada.</response>
+             <response code="400">Se a nova vaga não for criada.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.VagasController.Editar(System.Int32,ApiRH.Dominio.Commands.Input.Vagas.VagaCommand)">
+             <summary>
+             Altera uma vaga.
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                 {
+                    "descricao": "Vaga",
+                    "Tecnologias":[
+                         {
+                             "TecnologiaId": 1
+                         },        
+                         {
+                             "TecnologiaId": 2
+                         }
+                     ],
+                     "Candidatos":[
+                         {
+                             "CandidatoId": 1
+                         },        
+                         {
+                             "CandidatoId": 2
+                         }
+                     ]
+                 }
+            
+             </remarks>
+             <returns>Vaga alterada.</returns>
+             <response code="200">Retorna a vaga alterada.</response>
+             <response code="400">Se a vaga não for alterada.</response>    
+             <param name="id">Id da vaga a ser alterada.</param>
+             <param name="model"></param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.VagasController.Listar">
+            <summary>
+            Lista todas as vagas.
+            </summary>
+            <remarks />
+            <returns>Lista todas as vagas cadastradas e ativas.</returns>
+            <response code="200">Retorna lista de vagas.</response>
+            <response code="400">Se ocorrer algum erro ao listar as vagas.</response>    
+        </member>
+        <member name="M:ApiRH.API.Controllers.VagasController.ObtemPorId(System.Int32)">
+            <summary>
+            Obtem uma vaga por id.
+            </summary>
+            <returns></returns>
+            <response code="200">Retorna a vaga consultada.</response>
+            <response code="400">Se a vaga não for consultada.</response>
+            <param name="id">Id da vaga a ser consultada.</param>
+        </member>
+        <member name="M:ApiRH.API.Controllers.VagasController.Excluir(System.Int32)">
+            <summary>
+            Exclui uma vaga.
+            </summary>
+            <returns>Vaga excluída.</returns>
+            <response code="200">vaga excluída.</response>
+            <response code="400">Se a vaga não for excluída.</response>
+            <param name="id">Id da vaga a ser excluída.</param>
+        </member>
+    </members>
+</doc>

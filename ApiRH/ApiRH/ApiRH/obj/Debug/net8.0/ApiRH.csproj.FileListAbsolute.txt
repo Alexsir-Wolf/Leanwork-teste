@@ -1,0 +1,7 @@
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.csproj.AssemblyReference.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.AssemblyInfoInputs.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.AssemblyInfo.cs
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.csproj.CoreCompileInputs.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.MvcApplicationPartsAssemblyInfo.cache
+D:\Leanwork\ApiRH\ApiRH\ApiRH\obj\Debug\net8.0\ApiRH.sourcelink.json
